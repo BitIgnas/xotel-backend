@@ -21,5 +21,4 @@ public class Staff {
     @ManyToOne(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     private Hotel hotel;
 
-
 }
